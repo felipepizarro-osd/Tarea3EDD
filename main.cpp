@@ -70,7 +70,8 @@ int main (){
     p->getInfo();
     p1->getInfo();
     p->setFechaPrimer("12 de marzo de 2020");
-
+	
+	cout<<"hola";
     //cout<<"EL nombre de la persona es:"<<p->getNombre()<<endl;
     delete p;
 }
