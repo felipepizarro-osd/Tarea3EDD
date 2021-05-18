@@ -3,25 +3,19 @@
 //
 
 #include <iostream>
-
+#include <fstream>
+#include <sstream>
+#define NOMBRE_ARCHIVO "archivoCovid.csv"
 using namespace std;
 
-class Persona {
+/*class Persona {
 protected:
-    string rut;
-    string nombre;
-    string fechaNac;
-    string enfermedad;
-    string dosis;
-    string fPrimera;
-    string fSegunda;
-    string city;
-    int region;
+    string rut,nombre,fechaNac,enfermedad,dosis,fPrimera,fSegunda,city,region;
     bool is;
     bool is2;
 
 public:
-    Persona(const string rut, const string Name, const string city, const int region,const string fechaNac) {
+    Persona(const char* rut, const string Name, const string city, const int region,const string fechaNac) {
         this->nombre = Name ;
         this->city = city;
         this->region = region;
@@ -48,34 +42,52 @@ public:
             cout<<"la dosis recibida es . "<< this->dosis << endl;
         }
     }
-    string getInfo();
+    string getInfo(){
+        cout<<this->nombre<<" Rut: "<<this->rut<<" Ciudad "<<this->city<<endl;
+        cout<<"Perteneciente a la region = "<< this->region<<endl;
+    }
 ~Persona(){
         cout<<"Destruyendo al objeto Persona"<<endl;
-
     }
 
 
-};
-
-string Persona::getInfo() {
-    cout<<this->nombre<<" Rut: "<<this->rut<<" Ciudad "<<this->city<<endl;
-    cout<<"Perteneciente a la region = "<< this->region<<endl;
-
-}
-
-
-
+};*/
 
 int main (){
-    Persona *p = new Persona("198252026","Felipe","Ovalle",4);
-    Persona *p1 = new Persona("208746793","Marcos","Ovalle",4);
+    ifstream arch(NOMBRE_ARCHIVO);
+    string line;
+    char delimitador = ',';
 
-    p->getInfo();
-    p1->getInfo();
-    p->setFechaPrimer("12 de marzo de 2020");
-	
-	cout<<"hola";
-    //cout<<"EL nombre de la persona es:"<<p->getNombre()<<endl;
-    delete p;
+    getline(arch,line);
+
+    string rut,name,fnac,dis,vaccine,fech1,fech2,city,reg;
+    while(getline(arch,line)){
+
+        stringstream stream (line);
+
+        getline(stream,rut, delimitador);
+        getline(stream,name, delimitador);
+        getline(stream,fnac,delimitador);
+        getline(stream,dis,delimitador);
+        getline(stream,vaccine,delimitador);
+        getline(stream,fech1,delimitador);
+        getline(stream,fech2,delimitador);
+        getline(stream,city,delimitador);
+        getline(stream,reg,delimitador);
+
+        cout << "==================" << endl;
+        cout << "Rut: " << rut << endl;
+        cout << "Nombre: " << name << endl;
+        cout << "fnac: " << fnac << endl;
+        cout << "disease: " << dis << endl;
+        cout << "Vaccine: " << vaccine << endl;
+        cout << "fech1: " << fech1 << endl;
+        cout << "fech3: " << fech2 << endl;
+        cout << "city: " << city << endl;
+        cout << "region: " << reg << endl;
+    }
+
+    arch.close();
+
 }
 
