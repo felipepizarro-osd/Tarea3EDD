@@ -63,6 +63,9 @@ string Persona::getInfo() {
 
 }
 
+
+
+
 int main (){
     Persona *p = new Persona("198252026","Felipe","Ovalle",4);
     Persona *p1 = new Persona("208746793","Marcos","Ovalle",4);
