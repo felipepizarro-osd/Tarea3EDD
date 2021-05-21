@@ -1,20 +1,20 @@
 ﻿Rut,Nombre,Fecha_Nacimiento,Enfermedades_Crónicas,Nombre_Vacuna,Fecha_Primera_Dosis,Fecha_Segunda_Dosis,Ciudad,Region
 3561506-6,Kuame,04/10/1920,Diabético,Pfizer,23/01/2021,23/02/2021,La Serena,4
 2490625-8,Griffith,05/10/1922,Diabético,Sinovac,07/03/2021,07/04/2021,Illapel,4
-4276654-7,Fulton,06/10/1922,"Hipertenso,Diabético",Pfizer,22/04/2021,22/04/2021,Coquimbo,4
+"4276654-7,Fulton,06/10/1922,""Hipertenso,Diabético"",Pfizer,22/04/2021,22/04/2021,Coquimbo,4"
 18273798-4,Tate,09/02/1969,No,Sinovac,30/04/2021,,La Serena,4
-3559969-9,Keely,08/10/1924,"Hipertenso,Diabético",Pfizer,06/04/2021,06/05/2021,Los Vilos,4
-9941585-1,Hanae,09/10/1924,"Hipertenso,Diabético",Pfizer,23/01/2021,23/02/2021,La Serena,4
-25547899-0,Regina,27/11/1968,"Hipertenso,Diabético",Pfizer,07/03/2021,07/04/2021,La Serena,4
-14653322-1,Anika,08/03/1991,"Hipertenso,Diabético",Pfizer,22/04/2021,22/04/2021,Illapel,4
-29224855-5,Martina,21/11/1959,"Hipertenso,Diabético",Pfizer,01/04/2021,01/05/2021,Coquimbo,4
-19561122-K,Sade,20/10/1992,"Hipertenso,Diabético",Pfizer,06/04/2021,06/05/2021,La Serena,4
-11684830-9,Dai,19/09/1992,"Hipertenso,Diabético",Pfizer,23/01/2021,23/02/2021,Los Vilos,4
-50902584-3,Nero,27/10/1942,"Hipertenso,Diabético",Pfizer,07/03/2021,07/04/2021,La Serena,4
-29917504-9,Damian,01/12/1985,"Hipertenso,Diabético",Sinovac,22/04/2021,22/04/2021,La Serena,4
-44054571-8,Lucius,29/03/1977,"Hipertenso,Diabético",Sinovac,01/04/2021,01/05/2021,Illapel,4
-22084588-5,Jada,02/01/1949,"Hipertenso,Diabético",Pfizer,06/04/2021,06/05/2021,Coquimbo,4
-43407673-0,Samantha,17/08/1974,"Hipertenso,Diabético",Pfizer,29/04/2021,,La Serena,4
+"3559969-9,Keely,08/10/1924,""Hipertenso,Diabético"",Pfizer,06/04/2021,06/05/2021,Los Vilos,4"
+"9941585-1,Hanae,09/10/1924,""Hipertenso,Diabético"",Pfizer,23/01/2021,23/02/2021,La Serena,4"
+"25547899-0,Regina,27/11/1968,""Hipertenso,Diabético"",Pfizer,07/03/2021,07/04/2021,La Serena,4"
+"14653322-1,Anika,08/03/1991,""Hipertenso,Diabético"",Pfizer,22/04/2021,22/04/2021,Illapel,4"
+"29224855-5,Martina,21/11/1959,""Hipertenso,Diabético"",Pfizer,01/04/2021,01/05/2021,Coquimbo,4"
+"19561122-K,Sade,20/10/1992,""Hipertenso,Diabético"",Pfizer,06/04/2021,06/05/2021,La Serena,4"
+"11684830-9,Dai,19/09/1992,""Hipertenso,Diabético"",Pfizer,23/01/2021,23/02/2021,Los Vilos,4"
+"50902584-3,Nero,27/10/1942,""Hipertenso,Diabético"",Pfizer,07/03/2021,07/04/2021,La Serena,4"
+"29917504-9,Damian,01/12/1985,""Hipertenso,Diabético"",Sinovac,22/04/2021,22/04/2021,La Serena,4"
+"44054571-8,Lucius,29/03/1977,""Hipertenso,Diabético"",Sinovac,01/04/2021,01/05/2021,Illapel,4"
+"22084588-5,Jada,02/01/1949,""Hipertenso,Diabético"",Pfizer,06/04/2021,06/05/2021,Coquimbo,4"
+"43407673-0,Samantha,17/08/1974,""Hipertenso,Diabético"",Pfizer,29/04/2021,,La Serena,4"
 46690732-4,Imelda,28/08/1959,Hipertenso,Pfizer,30/04/2021,,Los Vilos,4
 44990632-2,Rogan,23/08/1957,Hipertenso,Sinovac,29/04/2021,,La Serena,4
 31779698-6,Cherokee,12/12/1930,Hipertenso,Sinovac,30/04/2021,,La Serena,4
@@ -61,7 +61,7 @@
 5424633-6,Zachary,07/10/1923,Hipertenso,Pfizer,01/04/2021,01/05/2021,La Serena,4
 13773904-6,Dieter,27/04/1947,Hipertenso,Pfizer,30/04/2021,,La Serena,4
 47868250-6,Brett,10/06/1972,Hipertenso,Sinovac,30/04/2021,,Illapel,4
-42956984-2,Lars,16/09/1969,"Hipertenso,Fibrosis quística",Pfizer,30/04/2021,,Coquimbo,4
+"42956984-2,Lars,16/09/1969,""Hipertenso,Fibrosis quística"",Pfizer,30/04/2021,,Coquimbo,4"
 40445064-6,Marsden,05/12/1946,Fibrosis quística,Pfizer,30/04/2021,,La Serena,4
 10824505-0,Giacomo,20/02/1993,Hipertenso,Pfizer,30/04/2021,,Los Vilos,4
 46081098-1,Wylie,21/03/1982,Hipertenso,Pfizer,30/04/2021,,La Serena,4
@@ -99,13 +99,3 @@
 6288273-5,Craig,11/08/1989,Fibrosis quística,Sinovac,18/03/2021,18/04/2021,Illapel,4
 27981885-7,Eliana,24/06/1940,Fibrosis quística,Sinovac,24/02/2021,24/03/2021,Coquimbo,4
 6102727-0,Judah,19/10/2002,Fibrosis quística,Sinovac,01/02/2021,01/03/2021,La Serena,4
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,

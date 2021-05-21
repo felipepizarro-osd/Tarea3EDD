@@ -141,6 +141,32 @@ Tarea3EDD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea3EDD.dir\build.make CMakeFiles/Tarea3EDD.dir/build
 .PHONY : Tarea3EDD/fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named main.cpp
+
+# Build rule for target.
+main.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main.cpp
+.PHONY : main.cpp
+
+# fast build rule for target.
+main.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.cpp.dir\build.make CMakeFiles/main.cpp.dir/build
+.PHONY : main.cpp/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -148,6 +174,8 @@ main.obj: main.cpp.obj
 # target to build an object file
 main.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea3EDD.dir\build.make CMakeFiles/Tarea3EDD.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.cpp.dir\build.make CMakeFiles/main.cpp.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -157,6 +185,8 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea3EDD.dir\build.make CMakeFiles/Tarea3EDD.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.cpp.dir\build.make CMakeFiles/main.cpp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,6 +196,8 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea3EDD.dir\build.make CMakeFiles/Tarea3EDD.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.cpp.dir\build.make CMakeFiles/main.cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,6 +209,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Tarea3EDD
+	@echo ... main
+	@echo ... main.cpp
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

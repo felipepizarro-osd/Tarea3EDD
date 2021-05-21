@@ -1,0 +1,5 @@
+E:/proyectos/Tarea3EDD/cmake-build-debug-coverage/CMakeFiles/Tarea3EDD.dir
+E:/proyectos/Tarea3EDD/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+E:/proyectos/Tarea3EDD/cmake-build-debug-coverage/CMakeFiles/main.dir
+E:/proyectos/Tarea3EDD/cmake-build-debug-coverage/CMakeFiles/main.cpp.dir
+E:/proyectos/Tarea3EDD/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
